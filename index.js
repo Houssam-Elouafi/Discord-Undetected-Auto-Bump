@@ -1,6 +1,6 @@
 const { Client } = require('discord.js-selfbot-v13');
 const { Constants: { APIErrors }} = require('discord.js');
-const keep_alive = require('./keep_alive.js')
+
 require('dotenv').config()
 const Cooldown = new Set();
 let mytimer;
