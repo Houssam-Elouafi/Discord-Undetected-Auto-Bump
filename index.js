@@ -9,6 +9,7 @@ let timer = false;
 const client = new Client({
   disableEveryone: true
 });
+const keep_alive = require('./keep_alive.js')
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
